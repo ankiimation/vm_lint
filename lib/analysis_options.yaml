@@ -17,7 +17,7 @@ analyzer:
     # short child properties last
     sort_child_properties_last: error
     # CUSTOM
-    public_member_api_docs: error
+    public_member_api_docs: warning
     exhaustive_cases: error
     # PEDANTIC FORCE ERROR
     always_declare_return_types: error
@@ -51,7 +51,7 @@ analyzer:
     prefer_iterable_whereType: error
     prefer_spread_collections: error
     recursive_getters: error
-    slash_for_doc_comments: error
+    slash_for_doc_comments: warning
     type_init_formals: error
     unnecessary_const: error
     unnecessary_new: error
