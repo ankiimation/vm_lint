@@ -17,7 +17,6 @@ analyzer:
     # short child properties last
     sort_child_properties_last: error
     # CUSTOM
-    public_member_api_docs: warning
     exhaustive_cases: error
     # PEDANTIC FORCE ERROR
     always_declare_return_types: error
